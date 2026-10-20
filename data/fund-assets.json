@@ -1,0 +1,329 @@
+{
+  "schemaVersion": "verified-fund-assets-v2",
+  "verifiedAt": "2026-10-19",
+  "currency": "USD",
+  "sourceFundCount": 51,
+  "verifiedFundCount": 20,
+  "verifiedPortfolioCount": 19,
+  "knownPortfolioAssetsUsd": 391450921105.68,
+  "earliestDate": "2026-06-30",
+  "latestDate": "2026-09-30",
+  "modelAsOf": "2026-10-12",
+  "scope": "Published total net assets of verified underlying funds; not security holdings, trades or forecast flows.",
+  "assumptions": [
+    "Missing fund assets are unavailable, never zero. Coverage is shown with every combined amount.",
+    "Assets are counted once per underlying portfolioId, across all share classes.",
+    "Fund assets have different reporting dates; each source and date is listed in details.",
+    "If share classes of an underlying fund point in opposite model directions, its assets are excluded from directional subtotals.",
+    "Model target changes are independent of external reported fund assets. No actual trade amounts are calculated."
+  ],
+  "byFundCode": {
+    "FDGRX": {
+      "fundId": "FDGRX",
+      "portfolioId": "fidelity-growth-company-fund",
+      "portfolioName": "Fidelity Growth Company Fund",
+      "assetsUsd": 97751090000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/view-all/316200104?buf=99999999",
+      "sourceTitle": "Fidelity Growth Company Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 97751.09,
+      "shareClassAssetsUsd": 88790660000,
+      "name": "Fidelity Growth Company Fund",
+      "fundName": "Fidelity Growth Company Fund"
+    },
+    "FCGSX": {
+      "fundId": "FCGSX",
+      "portfolioId": "fidelity-series-growth-company-fund",
+      "portfolioName": "Fidelity Series Growth Company Fund",
+      "assetsUsd": 24427620000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/view-all/316200831",
+      "sourceTitle": "Fidelity Series Growth Company Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 24427.62,
+      "name": "Fidelity Series Growth Company Fund",
+      "fundName": "Fidelity Series Growth Company"
+    },
+    "FMFMX": {
+      "fundId": "FMFMX",
+      "portfolioId": "fidelity-advisor-series-equity-growth-fund",
+      "portfolioName": "Fidelity Advisor Series Equity Growth Fund",
+      "assetsUsd": 1552270000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/view-all/315805168",
+      "sourceTitle": "Fidelity Advisor Series Equity Growth Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 1552.27,
+      "name": "Fidelity Advisor Series Equity Growth Fund",
+      "fundName": "Fidelity Advisor Series Equity Gr"
+    },
+    "FSBDX": {
+      "fundId": "FSBDX",
+      "portfolioId": "fidelity-series-blue-chip-growth-fund",
+      "portfolioName": "Fidelity Series Blue Chip Growth Fund",
+      "assetsUsd": 17664070000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/view-all/316389386",
+      "sourceTitle": "Fidelity Series Blue Chip Growth Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 17664.07,
+      "name": "Fidelity Series Blue Chip Growth Fund",
+      "fundName": "Fidelity Series Blue Chip Growth"
+    },
+    "FGLGX": {
+      "fundId": "FGLGX",
+      "portfolioId": "fidelity-series-large-cap-stock-fund",
+      "portfolioName": "Fidelity Series Large Cap Stock Fund",
+      "assetsUsd": 30124970000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/summary/31617F833",
+      "sourceTitle": "Fidelity Series Large Cap Stock Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 30124.97,
+      "name": "Fidelity Series Large Cap Stock Fund",
+      "fundName": "Fidelity Series Large Cap Stock"
+    },
+    "FDSVX": {
+      "fundId": "FDSVX",
+      "portfolioId": "fidelity-growth-discovery-fund",
+      "portfolioName": "Fidelity Growth Discovery Fund",
+      "assetsUsd": 6518390000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/view-all/31617F205",
+      "sourceTitle": "Fidelity Growth Discovery Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 6518.39,
+      "shareClassAssetsUsd": 5847320000,
+      "name": "Fidelity Growth Discovery Fund",
+      "fundName": "Fidelity Growth Discovery"
+    },
+    "FSAEX": {
+      "fundId": "FSAEX",
+      "portfolioId": "fidelity-series-all-sector-equity-fund",
+      "portfolioName": "Fidelity Series All-Sector Equity Fund",
+      "assetsUsd": 5760660000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/summary/316128636",
+      "sourceTitle": "Fidelity Series All-Sector Equity Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 5760.66,
+      "name": "Fidelity Series All-Sector Equity Fund",
+      "fundName": "Fidelity Series All-Sector Equity"
+    },
+    "FAOFX": {
+      "fundId": "FAOFX",
+      "portfolioId": "fidelity-advisor-series-growth-opportunities-fund",
+      "portfolioName": "Fidelity Advisor Series Growth Opportunities Fund",
+      "assetsUsd": 1094660000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/summary/315805176?type=o-NavBar",
+      "sourceTitle": "Fidelity Advisor Series Growth Opportunities Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 1094.66,
+      "name": "Fidelity Advisor Series Growth Opportunities Fund",
+      "fundName": "Fidelity Advisor Series Growth Opps"
+    },
+    "FBCKX": {
+      "fundId": "FBCKX",
+      "portfolioId": "fidelity-blue-chip-growth-fund",
+      "portfolioName": "Fidelity Blue Chip Growth Fund",
+      "assetsUsd": 102572180000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/summary/316389303?type=sq-NavBar",
+      "sourceTitle": "Fidelity Blue Chip Growth Fund — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 102572.18,
+      "mappingSourceUrl": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F9920906.PDF",
+      "mappingSourceTitle": "Fidelity Advisor Blue Chip Growth Fund — March 31, 2026 fact sheet",
+      "mappingNote": "Official fact sheet identifies FBCKX as Class Z of Fidelity Blue Chip Growth Fund. The asset value is for that full underlying fund, not the Z share class.",
+      "name": "Fidelity Blue Chip Growth Fund",
+      "fundName": "Fidelity Advisor Blue Chip Growth Z"
+    },
+    "FOTJX": {
+      "fundId": "FOTJX",
+      "portfolioId": "fidelity-otc-portfolio",
+      "portfolioName": "Fidelity OTC Portfolio",
+      "assetsUsd": 45510790000,
+      "asOf": "2026-08-31",
+      "scope": "fund",
+      "sourceUrl": "https://fundresearch.fidelity.com/mutual-funds/summary/316389105?ccsource=lz_inthemoney",
+      "sourceTitle": "Fidelity OTC Portfolio — Portfolio Net Assets ($M)",
+      "sourceValueMillions": 45510.79,
+      "mappingSourceUrl": "https://institutional.fidelity.com/app/proxy/content?literatureURL=%2F9918821.PDF",
+      "mappingSourceTitle": "Fidelity Advisor OTC Fund — March 31, 2026 fact sheet",
+      "mappingNote": "Official fact sheet identifies FOTJX as Class Z of Fidelity OTC Portfolio. The asset value is for that full underlying fund, not the Z share class.",
+      "name": "Fidelity OTC Portfolio",
+      "fundName": "Fidelity Advisor OTC Z"
+    },
+    "AGIZX": {
+      "fundId": "AGIZX",
+      "portfolioId": "alger-growth-income",
+      "assetsUsd": 970619682.36,
+      "asOf": "2026-07-31",
+      "scope": "fund",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/3521/000094040026038533/primary_doc.xml",
+      "sourceTitle": "Alger Growth & Income Fund — Form NPORT-P, reporting period July 31, 2026",
+      "codeAliases": [
+        "AGIZX",
+        "ALBAX",
+        "ALBCX"
+      ],
+      "name": "Alger Growth & Income Z",
+      "fundName": "Alger Growth & Income Z"
+    },
+    "ALCFX": {
+      "fundId": "ALCFX",
+      "portfolioId": "alger-focus-equity",
+      "assetsUsd": 7122500333.32,
+      "asOf": "2026-07-31",
+      "scope": "fund",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/911415/000094040026038531/primary_doc.xml",
+      "sourceTitle": "Alger Focus Equity Fund — Form NPORT-P, reporting period July 31, 2026",
+      "codeAliases": [
+        "ALCFX",
+        "ALGYX",
+        "ALZFX",
+        "ALGRX",
+        "ALAFX"
+      ],
+      "name": "Alger Focus Equity C",
+      "fundName": "Alger Focus Equity C"
+    },
+    "ALGYX": {
+      "fundId": "ALGYX",
+      "portfolioId": "alger-focus-equity",
+      "assetsUsd": 7122500333.32,
+      "asOf": "2026-07-31",
+      "scope": "fund",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/911415/000094040026038531/primary_doc.xml",
+      "sourceTitle": "Alger Focus Equity Fund — Form NPORT-P, reporting period July 31, 2026",
+      "codeAliases": [
+        "ALCFX",
+        "ALGYX",
+        "ALZFX",
+        "ALGRX",
+        "ALAFX"
+      ],
+      "name": "Alger Focus Equity Y",
+      "fundName": "Alger Focus Equity Y"
+    },
+    "BFGFX": {
+      "fundId": "BFGFX",
+      "portfolioId": "baron-focused-growth",
+      "assetsUsd": 5100000000,
+      "asOf": "2026-09-30",
+      "scope": "fund",
+      "sourceUrl": "https://www.baroncapitalgroup.com/product-detail/baron-focused-growth-fund-bfgfx",
+      "sourceTitle": "Baron Focused Growth Fund — Net Assets, September 30, 2026",
+      "codeAliases": [
+        "BFGFX",
+        "BFGIX",
+        "BFGUX"
+      ],
+      "name": "Baron Focused Growth Retail",
+      "fundName": "Baron Focused Growth Retail"
+    },
+    "EGORX": {
+      "fundId": "EGORX",
+      "portfolioId": "allspring-large-cap-core",
+      "assetsUsd": 1307230000,
+      "asOf": "2026-09-30",
+      "scope": "fund",
+      "sourceUrl": "https://doc.morningstar.com/LatestDoc.aspx?clientid=allspring&documenttype=52&frame=0&key=9cfad81d4a555b04&secid=FOUSA06O0F&sourceid=255",
+      "sourceTitle": "Allspring Large Cap Core Fund — September 30, 2026 factsheet, page 2",
+      "codeAliases": [
+        "EGORX",
+        "EGOAX",
+        "EGOCX",
+        "EGOIX"
+      ],
+      "name": "Allspring Large Cap Core R6",
+      "fundName": "Allspring Large Cap Core R6"
+    },
+    "EVSRX": {
+      "fundId": "EVSRX",
+      "portfolioId": "allspring-disciplined-us-core",
+      "assetsUsd": 2136560000,
+      "asOf": "2026-09-30",
+      "scope": "fund",
+      "sourceUrl": "https://doc.morningstar.com/LatestDoc.aspx?clientid=allspring&documenttype=52&frame=0&key=9cfad81d4a555b04&secid=F00000J8JV&sourceid=255",
+      "sourceTitle": "Allspring Disciplined U.S. Core Fund — September 30, 2026 factsheet, page 2",
+      "codeAliases": [
+        "EVSRX",
+        "EVSAX",
+        "EVSTX",
+        "EVSIX"
+      ],
+      "name": "Allspring Disciplined US Core R6",
+      "fundName": "Allspring Disciplined US Core R6"
+    },
+    "GQESX": {
+      "fundId": "GQESX",
+      "portfolioId": "gmo-quality",
+      "assetsUsd": 12300000000,
+      "asOf": "2026-09-30",
+      "scope": "fund",
+      "sourceUrl": "https://www.gmo.com/americas/product-index-page/equities/quality-strategy/quality-fund---qf/?class=Share+Class+R6",
+      "sourceTitle": "GMO Quality Fund — Fund Total Assets, September 30, 2026",
+      "codeAliases": [
+        "GQESX",
+        "GQLIX",
+        "GQETX"
+      ],
+      "name": "GMO Quality R6",
+      "fundName": "GMO Quality R6"
+    },
+    "NEAGX": {
+      "fundId": "NEAGX",
+      "portfolioId": "needham-aggressive-growth",
+      "assetsUsd": 2611604938,
+      "asOf": "2026-06-30",
+      "scope": "fund",
+      "sourceUrl": "https://www.needhamfunds.com/wp-content/uploads/2026/08/Core-Financials_Final2_web.pdf?x40384=",
+      "sourceTitle": "Needham Funds — Core Financial Statements, June 30, 2026, page 10",
+      "codeAliases": [
+        "NEAGX",
+        "NEAIX"
+      ],
+      "name": "Needham Aggressive Growth Retail",
+      "fundName": "Needham Aggressive Growth Retail"
+    },
+    "STSEX": {
+      "fundId": "STSEX",
+      "portfolioId": "blackrock-exchange",
+      "assetsUsd": 266641553,
+      "asOf": "2026-06-30",
+      "scope": "fund",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/844779/000119312526379948/d141463dncsrs.htm",
+      "sourceTitle": "BlackRock Exchange Portfolio — Semiannual Shareholder Report, June 30, 2026",
+      "codeAliases": [
+        "STSEX"
+      ],
+      "name": "BlackRock Exchange BlackRock",
+      "fundName": "BlackRock Exchange BlackRock"
+    },
+    "TWCUX": {
+      "fundId": "TWCUX",
+      "portfolioId": "american-century-ultra",
+      "assetsUsd": 26659064599,
+      "asOf": "2026-09-30",
+      "scope": "fund",
+      "sourceUrl": "https://www.americancentury.com/invest/funds/ultra/twcux/",
+      "sourceTitle": "American Century Ultra Fund — Total Assets, September 30, 2026",
+      "codeAliases": [
+        "TWCUX",
+        "TWUIX",
+        "TWUAX",
+        "TWCCX",
+        "AULGX",
+        "AULDX",
+        "AULYX",
+        "AULRX",
+        "AULNX"
+      ],
+      "name": "American Century Ultra® Inv",
+      "fundName": "American Century Ultra® Inv"
+    }
+  }
+}
