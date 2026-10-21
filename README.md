@@ -1,9 +1,13 @@
 # AInvest · Institution AI insights
 
-[Open the prototype](https://emeryxu1-blip.github.io/ainvest-institutional-insights/)
+[Open the snapshot-based widget](https://emeryxu1-blip.github.io/ainvest-institutional-insights/?prototype=snapshot)
 
-A shareable presentation of independent AI institution replicas, expected institutional stock moves, dollar positions and simulated performance.
+**Where Institutions Move Next** presents Buy Signals, Sell Signals and Fund Forecasts from supplied model targets and sourced asset evidence. Dollar values are calculated changes in target allocation value, not observed trades or cash flows. Stock details, fund forecasts, search and evidence stay inside the widget.
 
-This repository contains the verified static presentation build. Original source snapshots and research archives are retained in the maintained local project and are not included here. Displayed forecasts and simulations are labeled AI estimates or illustrative examples; the named institutions do not endorse or manage these replicas.
+[Open the future-plan prototype](https://emeryxu1-blip.github.io/ainvest-institutional-insights/)
 
-Published October 20, 2026. Build validation: 68 tests passed.
+The original experience presents independent AI institution replicas, illustrative expected stock moves, dollar positions and simulated performance.
+
+This repository contains the verified static presentation build. Original source snapshots and research archives are retained in the maintained local project and are not included here. The named institutions do not endorse or manage these independent prototypes.
+
+Published October 21, 2026. Build validation: 75 tests passed; GitHub Pages project paths and widget loading verified before publication.
